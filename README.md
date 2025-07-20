@@ -18,12 +18,3 @@ Este proyecto es una aplicación de consola escrita en C++ que permite al usuari
 
 ## Autor
 Matt Silva - Estudiante de Ciencias de la Cumputacion en la UPC (Universidad de Ciencias Peruanas)
-
-## Compilación
-
-Este código fue desarrollado en C++ estándar. Puedes compilarlo usando `g++` u otro compilador compatible. Por ejemplo:
-
-```bash para windows
-g++ -o lista_numeros.exe main.cpp
-lista_numeros.exe
-
