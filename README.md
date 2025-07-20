@@ -1,14 +1,29 @@
-# Lista de numeros 
+# Lista de Números - Programa en C++
 
-Este proyecto te permite iniciar una lista de numeros y calcularle el promedio, la frecuencia de algun numero o borrar numero de la lista
+Este proyecto es una aplicación de consola escrita en C++ que permite al usuario ingresar números y realizar diferentes operaciones estadísticas sobre ellos. Utiliza estructuras y vectores para almacenar y procesar los datos.
+
+## Funcionalidades
+
+- Agregar un número (con control de duplicados y conteo de frecuencia).
+- Listar todos los números ingresados, mostrando si son pares o impares y su frecuencia.
+- Calcular el promedio de todos los números.
+- Identificar el número mayor.
+- Contar la cantidad de números pares.
+- Buscar la frecuencia de un número específico.
+- Ordenar los números de mayor a menor o de menor a mayor.
+- Eliminar un número ingresado.
+- Limpiar toda la lista de números.
+- Salir del programa.
 
 
-## Como compilar 
+## Autor
+Matt Silva - Estudiante de Ciencias de la Cumputacion en la UPC (Universidad de Ciencias Peruanas)
 
-```bash
-g++ ListaNumeros.cpp -o Lista
+## Compilación
 
-## Como ejecutar 
+Este código fue desarrollado en C++ estándar. Puedes compilarlo usando `g++` u otro compilador compatible. Por ejemplo:
 
-./Lista
+```bash para windows
+g++ -o lista_numeros.exe main.cpp
+lista_numeros.exe
 
